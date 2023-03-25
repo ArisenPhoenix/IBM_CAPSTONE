@@ -1,0 +1,16 @@
+|--- feature_4 <= 14.62
+|   |--- feature_2 <= 0.50
+|   |   |--- feature_0 <= 50.50
+|   |   |   |--- class: drugA
+|   |   |--- feature_0 >  50.50
+|   |   |   |--- class: drugB
+|   |--- feature_2 >  0.50
+|   |   |--- feature_3 <= 0.50
+|   |   |   |--- feature_2 <= 1.50
+|   |   |   |   |--- class: drugC
+|   |   |   |--- feature_2 >  1.50
+|   |   |   |   |--- class: drugX
+|   |   |--- feature_3 >  0.50
+|   |   |   |--- class: drugX
+|--- feature_4 >  14.62
+|   |--- class: drugY
